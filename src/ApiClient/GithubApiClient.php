@@ -11,7 +11,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
  * Thin wrapper around the GitHub REST API.
  * Only knows how to talk to GitHub and map raw responses into DTOs.
  */
-final class GithubApiClient
+class GithubApiClient
 {
     public function __construct(
         private readonly HttpClientInterface $apiClient,

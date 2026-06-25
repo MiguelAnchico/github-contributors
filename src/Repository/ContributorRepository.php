@@ -8,7 +8,7 @@ use App\Entity\Contributor;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
-final class ContributorRepository extends ServiceEntityRepository
+class ContributorRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
